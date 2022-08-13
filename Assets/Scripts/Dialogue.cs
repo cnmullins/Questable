@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
-[CreateAssetMenu(fileName = "Dialogue", menuName = "Tools/Dialogue", order = 0)]
+[CreateAssetMenu(fileName = "Dialogue", menuName = "Tools/Dialogue", order = 1)]
 public class Dialogue : ScriptableObject {
     public string speaker;
     public string text;
@@ -13,7 +14,6 @@ public class Dialogue : ScriptableObject {
     }
 
     public bool? IsItemInInventory() {
-        // I don't know is this inventory?
 
         return false;
     }
